@@ -256,12 +256,10 @@ p {
 .internal-header .main-logo{
     font-family: 'CanterBold';
     font-size: 83px;
-    line-height: 43px;
     margin-top: 15px;
 }
 .internal-header .main-logo{
     font-size: 38px;
-    line-height: 21px;
     margin-top: 8px;
 }
 .header .sub-logo{
