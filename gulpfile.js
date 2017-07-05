@@ -2,12 +2,17 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var uglifycss = require('gulp-uglifycss');
 var tinypng = require('gulp-tinypng-compress');
 
 // SASS
 gulp.task('sass', function () {
   gulp.src('./resources/assets/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
+    .pipe(uglifycss({
+      "maxLineLen": 80,
+      "uglyComments": true
+    }))
     .pipe(gulp.dest('./assets/css'));
 });
 
