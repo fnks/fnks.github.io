@@ -76,8 +76,10 @@
       });
     };
 
-    $public.scrollMenu = function() {
-
+    $public.lightbox = function() {
+      lightbox.option({
+        'albumLabel': 'Imagens %1 de %2',
+      })
     };
 
     return $public;
@@ -89,6 +91,7 @@
   app.scrollPage();
   app.particles();
   app.easeScroll();
+  app.lightbox()
 
 
 })( window, document, jQuery );
