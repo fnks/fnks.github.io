@@ -282,9 +282,12 @@
      -moz-transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
        -o-transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
           transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-        filter: grayscale(100%); /* FF 35+ */
     opacity: .8;
+    
+    @media screen and (min-width: $tablet) {
+      -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+      filter: grayscale(100%); /* FF 35+ */
+    }
   }
 
   &:hover img {
@@ -294,12 +297,15 @@
   }
 
   .job-line {
-    opacity: 0;
     margin-left: 20px;
     -webkit-transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
      -moz-transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
        -o-transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
           transition: all 600ms cubic-bezier(0.420, 0.000, 1.000, 1.000);
+    
+    @media screen and (min-width: $tablet) {
+      opacity: 0;
+    }
   }
 
   &:hover .job-line{
@@ -312,18 +318,26 @@
   position: absolute;
   top: 50%;
   @include transform(translateY(-50%));
-  left: 32px;
+  left: 10%;
 
   .title {
     font-family: 'open_sanssemibold';
     font-size: 25px;
     color: $colorWhite;
+    
+    @media screen and (max-width: $tablet) {
+      font-size: 18px;
+    }
   }
 
   .tags {
     font-family: 'open_sansregular';
     font-size: 15px;
     color: $colorWhite;
+    
+    @media screen and (max-width: $tablet) {
+      font-size: 13px;
+    }
   }
 }
 
