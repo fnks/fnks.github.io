@@ -42,8 +42,7 @@ a{text-decoration:none;transition:color .15s linear}@font-face{font-family:'open
 @media screen and (max-width:768px){.menu a{padding:10px 18px;display:inline-block;background:#1c1c1c}
 }.menu a:hover{color:#f9f9f9}.menu a.active{color:#f9f9f9}.color-bg{background-image:url("../img/bg-color.png") !important}
 .info{position:absolute;bottom:30px;left:30px;color:#f9f9f9;font-size:16px}.box-info{text-align:center;max-width:500px;width:90%;margin:0 auto;display:none;padding-bottom:90px;position:relative}
-@media screen and (max-width:480px){.box-info{padding-bottom:40px;padding-top:35px}
-}.box-info .hi{font-family:'open_sanssemibold';font-size:20px;margin-bottom:11px}
+@media screen and (max-width:480px){.box-info{padding-bottom:40px}}.box-info .hi{font-family:'open_sanssemibold';font-size:20px;margin-bottom:11px}
 @media screen and (max-width:480px){.box-info .hi{font-size:18px;margin-bottom:11px}
 }.box-info .text{font-family:'open_sansregular';font-size:12px;line-height:20px;margin-bottom:50px}
 @media screen and (max-width:480px){.box-info .text{margin-bottom:26px}}.icons-list{list-style-type:none}
@@ -61,7 +60,7 @@ a{text-decoration:none;transition:color .15s linear}@font-face{font-family:'open
 }.job-item:hover .job-line{opacity:1;margin-left:0}.description{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:10%}
 .description .title{font-family:'open_sanssemibold';font-size:25px;color:#f9f9f9}
 @media screen and (max-width:768px){.description .title{font-size:18px}}.description .tags{font-family:'open_sansregular';font-size:15px;color:#f9f9f9}
-@media screen and (max-width:768px){.description .tags{font-size:13px}}.hamburger{font:inherit;display:inline-block;overflow:visible;margin:0 auto;padding:15px;cursor:pointer;text-transform:none;color:inherit;border:0;background-color:transparent;margin-top:30px}
+@media screen and (max-width:768px){.description .tags{font-size:13px}}.hamburger{font:inherit;display:inline-block;overflow:visible;margin:0 auto;padding:15px;cursor:pointer;text-transform:none;color:inherit;border:0;background-color:transparent}
 .hamburger-box{position:relative;display:inline-block;width:40px;height:24px;text-align:center}
 .hamburger-inner{transform:translate3d(0,10px,0) rotate(45deg);display:block;margin-top:-2px}
 .hamburger-inner:after{transform:translate3d(0,-20px,0) rotate(-90deg);top:20px}.hamburger .hamburger-inner,.hamburger .hamburger-inner:after,.hamburger .hamburger-inner:before{background-color:#f9f9f9;position:absolute;width:40px;height:2px;border-radius:4px}
