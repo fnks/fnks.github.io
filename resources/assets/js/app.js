@@ -1,3 +1,9 @@
+$(window).load(function() {
+  // Animate loader off screen
+  $(".load-wrap").fadeOut("slow");
+  $(".wrap-jobs").show();
+});
+
 ;(function( window, document, $, undefined ) {
   'use strict';
 
