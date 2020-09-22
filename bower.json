@@ -1,8 +1,0 @@
-{
-  "name" : "bootstrap-html",
-  "version": "0.0.1",
-  "dependencies" : {
-    "font-awesome": "latest",
-    "bxslider-4": "4.2.5"
-  }
-}
